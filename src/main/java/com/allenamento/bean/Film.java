@@ -9,8 +9,8 @@ public class Film {
 	private int voto;
 	private int nomeFilmLinguaOriginale;
 	
-	public Film(String nomeFilm) {
-		this.nomeFilm = nomeFilm;
+	public Film() {
+		this.nomeFilm = ".";
 	}
 
 	public String getNomeFilm() {
